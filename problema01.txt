@@ -1,0 +1,59 @@
+1. Inicio
+2. funcion principal()
+3. numero, i(0 -3)
+4. areaCuadrado, d(0 -3) 
+5. areaTriangulo, d(0 -3)
+6. areaRectangulo, d(0 -3) 
+7. <<"1. Área del cuadrado\n
+      2. Área del triángulo\n  
+      3. Área del rectángulo\n"   
+8. <<"Ingrese el numero de acuardo al área que desea calcular"
+9. >>numero
+10. Si (numero == 1) entonces
+11.          areaCuadrado = area_cuadrado()
+12.          <<"El área del cuadrado es igual a " + areaCuadrado       
+13. Fin Si          
+14. Si (numero == 2) entonces                  
+15.          areaTriangulo = area_triangulo()
+16.          <<"El área del triángulo es igual a " + areaTriangulo         
+17. De lo contrario                                          
+18.          areaRectangulo = area_rectangulo()
+19.          <<"El área del rectángulo es igual a " + areaRectangulo                                               
+20. FinSi
+                                                               
+21. fin funcion principal
+
+22. funcion areaCuadrado(): d
+23.     area, d(0 - n) <-- 0
+24.     a, d(0 - n)
+25.     <<"Ingrese el lado del cadrado"
+26.     >>a    
+27.     area = a ^ 4
+28.     retornar area
+29. fin funcion areaCuadrado
+
+30. funcion areaTriangulo(): d
+31.     area, d(0 - n) <-- 0
+32.     a, d(0 - n)
+33.     b, d(0 - n)
+34.     <<"Ingrese la base del triángulo"
+35.     >>b
+36.     <<"Ingrese la altura del triángulo"
+37.     >>a
+38.     area = (b * a) / 2
+39.     retornar area
+40. fin funcion areaTriangulo 
+
+41. funcion areaRectangulo(): d
+42.     area, d(0 - n) <-- 0
+43.     a, d(0 - n)
+44.     b, d(0 - n)
+45.     <<"Ingrese la base del rectángulo"
+46.     >>b
+47.     <<"Ingrese la altura del rectángulo"
+48.     >>a      
+49.     area = b * a
+50.     retornar area
+51. fin funcion areaRectangulo
+
+52. Fin

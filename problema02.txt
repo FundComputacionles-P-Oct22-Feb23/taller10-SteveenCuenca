@@ -1,0 +1,35 @@
+1. Inicio
+2. funcion principal
+3. nota1, d(0-n)
+4. nota2, d(0-n)
+5. nota3, d(0-n)
+6. nota4, d(0-n)
+7. promCualitativo, x(30)[{a-z}, {A-Z}, {BS}]
+8.  <<Ingrese la la nota 1"
+9.  >>nota1
+10. <<Ingrese la la nota 2"
+11. >>nota2
+12. <<Ingrese la la nota 3"
+13. >>nota3
+14. <<Ingrese la la nota 4"
+15. >>nota4
+16. promCualitativo <-- funcion primeraF(nota1, nota2, nota3, nota4)
+17. <<"El promedio de las notas: " + nota1+ ", " + nota2 + ", " + nota3 +", " + nota3 + " es " + promCualitativo
+18. fin funcion principal
+
+19. funcion primeraF(nota1, d; nota2, d; nota3, d; nota4, d): x
+20.     promCualitativo, x(30)[{a-z}, {A-Z}, {BS}]      
+21.     promedio = (nota1 +nota2 + nota3+ nota4) / 4            
+22.     Si  (promedio <= 0) AND (promedio >= 5) entonces
+23.               prom_cualitativo = "Regular"
+24.     De lo contrario    
+25.     Si (promedio <= 5.1) AND (promedio >= 8) entonces      
+26.               promCualitativo = "Bueno"  
+27.               De lo contrario                              
+28.                         Si (promedio <= 8.1) AND (promedio >= 9) entonces      
+29.                                   promCualitativo = "Muy Bueno"      
+30.               FinSi                                
+31.     FinSi                                  
+32.     retornar promCualitativo                                                                       
+33. fin funcion primera
+34. Fin
